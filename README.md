@@ -1,6 +1,6 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
 ## AIM:
-
+To study on sliding window protocols.
 ## ALGORITHM:
 1. Start the program.
 2. Get the frame size from the user
@@ -39,8 +39,16 @@ while True:
             print(ack) 
             i+=s 
 
-## OUPUT
-<img width="1668" height="302" alt="image" src="https://github.com/user-attachments/assets/3dcdf241-1368-4927-9d98-7745e9ba9053" />
+## OUPUT:
+server:
+
+<img width="865" height="302" alt="2b server" src="https://github.com/user-attachments/assets/7c3b172c-51de-466b-9783-dbc5fc862294" />
+
+client:
+
+<img width="798" height="302" alt="2b client" src="https://github.com/user-attachments/assets/48bc5bdb-02a3-4d08-a487-b0e857a6cdb4" />
+
+
 
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed
