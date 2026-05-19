@@ -10,16 +10,17 @@ To study on sliding window protocols.
 6. Stop the Program
 ## PROGRAM
 server.py
-
+```
 import socket 
 s=socket.socket() 
 s.connect(('localhost',8000))
 while True: 
     print(s.recv(1024).decode()) 
     s.send("acknowledgement recived from the server".encode())
+```
 
 client.py
-
+```
 import socket 
 s=socket.socket() 
 s.bind(('localhost',8000)) 
@@ -38,7 +39,7 @@ while True:
         if ack: 
             print(ack) 
             i+=s 
-
+```
 ## OUPUT:
 server:
 
